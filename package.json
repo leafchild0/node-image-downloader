@@ -1,0 +1,21 @@
+{
+  "name": "node-image-downloader",
+  "version": "1.0.0",
+  "description": "small tool for downloading images",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "request": "~2.81.0",
+    "cheerio": "~0.22.0"
+  },
+
+  "keywords": [
+    "image",
+    "download"
+  ],
+  "author": "leafchild0",
+  "license": "ISC"
+}
